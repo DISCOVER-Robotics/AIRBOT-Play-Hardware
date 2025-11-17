@@ -1,8 +1,8 @@
-# AIRBOT-PLAY-硬件驱动库
-AIRBOT PLAY  hardware 
+# AIRBOT-Play-硬件驱动库
+AIRBOT Play Hardware 
 # 概述
 
-AirbotPlay 机械臂控制 SDK 提供两套开发接口：
+AIRBOT Play 机械臂控制 SDK 提供两套开发接口：
 
 - **airbot_hardware**：底层硬件驱动库，提供机械臂电机的直控和反馈，用户可以使用此接口开发自己的运动控制算法、运动规划算法、数据采集和 VLA 算法推理等等
 - **airbot_state_machine**：上层应用开发接口，用户可以在机械臂预先安装的运动控制算法基础上，利用上层应用开发接口开发自己的软件业务功能，例如自主抓取等等
@@ -114,7 +114,7 @@ graph LR
 
 软件包请进入联络技术支持团队获取。解压后，您将看到以下软件包：
 
-- AIRBOT Play low level SDK `airbot-hardware` （.deb或.whl）
+- AIRBOT Play 硬件驱动库 `airbot-hardware` （.deb或.whl）
 
 建议使用conda环境，若使用conda：
 - 创建conda环境：
@@ -185,7 +185,7 @@ import airbot_hardware_py as ah
 
 ### ROS2
 
-该模块为 `example/cpp` 的 ROS2 接口实现，通过 ROS2 的话题（Topic）发布/订阅机制，可便捷控制 AirbotPlay 机械臂及其相关组件（E2、G2）。
+该模块为 `example/cpp` 的 ROS2 接口实现，通过 ROS2 的话题（Topic）发布/订阅机制，可便捷控制 AIRBOT Play 机械臂及其相关组件（E2、G2）。
 
 #### 依赖环境
 - ROS2 Jazzy
